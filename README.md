@@ -1,10 +1,8 @@
 # Chat with Documents using Llama-3.2
 
-This project demonstrates how to process and interact with PDF documents using a conversational AI model, **Llama-3.2**. The solution uses embeddings, vector storage, and custom prompt engineering to enable users to upload documents, extract context, and receive answers to queries related to the document content.
+This project demonstrates processing and interacting with PDF documents using a conversational AI model, **Llama-3.2**. The solution uses embeddings, vector storage, and custom prompt engineering to enable users to upload documents, extract context, and receive answers to queries related to the document content.
 
----
-
-- ## 🌟 Project Overview
+### **Project Overview**
 
 - **Objective**: Enable users to ask questions about PDF documents and receive relevant, concise answers.
 - **Features**:
@@ -13,17 +11,12 @@ This project demonstrates how to process and interact with PDF documents using a
   - Use custom prompt engineering for clear and context-relevant responses.
   - Runs entirely within a Jupyter Notebook for ease of use and experimentation.
 
-
----
-
 ### **Core Libraries**
 - **Llama-Index**: For building the query engine and managing document indexing.
 - **HuggingFace Embedding**: To generate embeddings for efficient similarity-based searches.
 - **PyPDF2**: To handle PDF file processing and text extraction.
 
----
-
-## ✨ Skills Utilized
+###  **Skills Utilized**
 1. **Python Programming**:
    - File handling and processing with libraries like `tempfile` and `os`.
    - Data manipulation and integration.
@@ -37,4 +30,3 @@ This project demonstrates how to process and interact with PDF documents using a
 5. **Debugging and Optimization**:
    - Error handling during file processing and query execution.
 
----
